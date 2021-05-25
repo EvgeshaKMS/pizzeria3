@@ -8,7 +8,6 @@ public class Goods {
     protected double carbohydrates;
     private int cost;
     private int quantity;
-    private Goods goods;
 
     public Goods(String name, double calories, double protein, double fat, double carbohydrates, int cost, int quantity) {
         this.name = name;
@@ -79,12 +78,4 @@ public class Goods {
         return  quantity*cost;
     }
 
-    public Goods getGoods() {
-        return goods;
-    }
-
-    public void setGoods(Goods goods) {
-        this.goods = goods;
-
-    }
 }

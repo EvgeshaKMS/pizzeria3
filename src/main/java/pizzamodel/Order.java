@@ -1,5 +1,8 @@
 package pizzamodel;
 
+import pizzamodel.Customer;
+import pizzamodel.Payment;
+
 public class Order {
     private Cart cart;
     private Customer customer;

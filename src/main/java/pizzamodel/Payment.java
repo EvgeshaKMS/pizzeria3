@@ -1,5 +1,7 @@
 package pizzamodel;
 
+import pizzamodel.PaymentType;
+
 public class Payment {
     private long amount;
     private PaymentType paymentType;
